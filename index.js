@@ -49,3 +49,33 @@ const miFunction = (edad) => {
 };
 
 console.log(miFunction(10));
+
+
+
+
+function pruebaSwich(miValor) {
+
+    if (miValor == 18) {
+        console.log('Esta persona tiene -> IF ' + miValor)
+    } else if( miValor == 25) {
+        console.log('Esta persona tiene --> IF' + miValor)
+    } else if( miValor == 30) {
+        console.log('Esta persona tiene ---> IF' + miValor)
+    } else {
+        console.log('Esta persona tiene ----> IF ' + miValor)
+    }
+
+    switch (miValor) {
+        case 18:
+        case 25:
+        case 30:
+        case 35:
+            console.log('Esta persona tiene ---->' + miValor)
+            break;
+        default:
+            console.log('Esta persona tiene un valor no verificado y es ' + miValor)
+            break;
+    }
+}
+
+pruebaSwich(18);
