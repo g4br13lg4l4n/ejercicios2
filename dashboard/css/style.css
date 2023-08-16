@@ -1,0 +1,17 @@
+.col {
+    margin: 4px;
+    background-color: aquamarine;
+}
+.mi-margen {
+    margin-top: 8px;
+}
+
+.cajon {
+    width: 200px;
+    height: 80px;
+    background-color: cadetblue;
+}
+
+.text-right {
+    text-align: right;
+}

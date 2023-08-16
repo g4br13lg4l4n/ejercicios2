@@ -1,2 +1,1 @@
-Curso de javascript
-algún cambio
+// Documentación de diseño en https://getbootstrap.com/docs/5.3/getting-started/introduction/

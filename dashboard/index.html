@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0 bd-example-row bd-example-row-flex-cols">
+
+    <!-- Example Code -->
+    
+    <div class="container">
+        <h1 class="fs-1 mb-5">Texto de prueba</h1>
+        <div class="row justify-content-center pt-2 pb-2">
+          <div class="col-10">.col-10</div>
+          <div class="col-4">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+          <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
+        </div>
+      </div>
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <div class="col-2">.col-6</div>
+            <div class="col-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <label for="name" class="form-label mt-2">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Nombre">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-primary" onclick="send()">Enviar</button>
+                </form>
+                <div id="respuesta"></div>
+            </div>
+            <div class="col-2">.col-6</div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <div class="col-2">.col-6</div>
+            <div class="col-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="edad" class="form-label">Edad</label>
+                        <input type="number" class="form-control" id="edad">
+                      </div>
+                      <button type="button" class="btn btn-primary" onclick="testAge()">Comprobar</button>
+                </form>
+                <div id="respuestaAge"></div>
+            </div>
+            <div class="col-2">.col-6</div>
+        </div>
+    </div>
+<!--
+    <div class="cajon">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, minima dolorum aperiam ipsam et blanditiis sapiente eius sint optio nobis dignissimos est, culpa excepturi officiis enim eum, nulla ipsa nostrum?
+    </div>
+-->
+    <!-- End Example Code -->
+  </body>
+  <script src="./js/script.js"></script>
+</html>
